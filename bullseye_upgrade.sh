@@ -1,4 +1,8 @@
 #!/bin/bash
+# Kevin McAleer
+# 11 November 2021
+
+echo "Kev's Powertools - Raspberry Pi OS Buster to Bullseye installation Script"
 
 # Replace buster with bullseye
 sudo sed -i 's/buster/bullseye/g' etc/apt/sources.list
