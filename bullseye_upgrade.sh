@@ -5,8 +5,8 @@
 echo "Kev's Powertools - Raspberry Pi OS Buster to Bullseye installation Script"
 
 # Replace buster with bullseye
-sudo sed -i 's/buster/bullseye/g' etc/apt/sources.list
-sudo sed -i 's/buster/bullseye/g' etc/apt/sources.list.d/raspi.list
+sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list
+sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list.d/raspi.list
 
 sudo apt update
 sudo apt clean
