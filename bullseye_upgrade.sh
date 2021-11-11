@@ -16,4 +16,4 @@ sudo install gcc-8-base
 sudo apt full-upgrade -y
 
 # Add updater to menu panel
-echo ‘rfkill unblock 0’ >> /etc/local.rc
+echo ‘rfkill unblock 0’ >> /etc/rc.local
