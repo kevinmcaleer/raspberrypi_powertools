@@ -10,9 +10,10 @@ sudo sed -i 's/buster/bullseye/g' etc/apt/sources.list.d/raspi.list
 
 sudo apt update
 sudo apt clean
-sudo apt upgrade
+sudo apt upgrade -y
+sudo apt autoremove -y
 sudo install gcc-8-base
-sudo apt full-upgrade
+sudo apt full-upgrade -y
 
 # Add updater to menu panel
 echo ‘rfkill unblock 0’ >> /etc/local.rc
